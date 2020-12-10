@@ -18,7 +18,8 @@ function detectmob() {
  }
 
  (function(){
-   
+  
+ 
   if (detectmob()) {
     //Small Screen Render
 
@@ -395,7 +396,26 @@ function detectmob() {
    
 })()
 
+    $('#name').change(() => { 
+      $('#name-icon').hide();
+      if($('#name').val().length < 1){
+        $('#name-icon').show();
+      }
+    });
 
+    $('#email').change(() => { 
+      $('#email-icon').hide();
+      if($('#email').val().length < 1){
+        $('#email-icon').show();
+      }
+    });
+
+    $('#msg_subject').change(() => {
+      $('#msg_subject-icon').hide();
+      if($('#msg_subject').val().length < 1){
+        $('#msg_subject-icon').show();
+      }
+    });
 
     $('#single-testimonial-item').owlCarousel({     
         items : 1,

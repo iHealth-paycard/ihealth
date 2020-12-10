@@ -21,25 +21,40 @@ function submitForm(){
     var msg_subject = $("#msg_subject").val();
     var message = $("#message").val();
 
+    Email.send({ 
+        Host: "smtp.elasticemail.com", 
+        Username: "eromtush@gmail.com", 
+        Password: "008651DCF4CA17CABFFEA5FBE71FC5BB577C", 
+        To: 'eric.kimani@techcloud.co.ke', 
+        From: email, 
+        Subject: msg_subject, 
+        Body: `${name},\n ${message}`, 
+      }) 
+        .then(function (message) { 
+            formSuccess(message);
 
-    $.ajax({
-        type: "GET",
-        url: "php/form-process.php",
-        data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
-        success : function(text){
-            if (text == "success"){
-                formSuccess();
-            } else {
-                formError();
-                submitMSG(false,text);
-            }
-        }
-    });
+        }); 
+
+
+    // $.ajax({
+    //     type: "GET",
+    //     url: "#",
+    //     data: "name=" + name + "&email=" + email + "&msg_subject=" + msg_subject + "&message=" + message,
+    //     success : function(text){
+    //         if (text == "success"){
+    //             formSuccess();
+    //         } else {
+    //             formError();
+    //             submitMSG(false,text);
+    //         }
+    //     }
+    // });
 }
 
-function formSuccess(){
+function formSuccess(msg){
     $("#contactForm")[0].reset();
-    submitMSG(true, "Message Submitted!")
+    console.log(msg);
+    submitMSG(true, 'Message Submitted Successfully !!')
 }
 
 function formError(){

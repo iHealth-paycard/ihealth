@@ -2445,6 +2445,7 @@ nav#menu span.fa.fa-bars:hover {
 .contact-form textarea:focus {
   border-color: #356ee9;
 }
+
 .contact-form .form-group {
   margin-bottom: 0;
 }
@@ -2507,7 +2508,7 @@ address i {
 .form-control:focus {
   border-color: #356ee9;
 }
-.form-group input {
+.form-group input:focus {
   font: normal normal normal 14px/1 FontAwesome, "Rubik", sans-serif;
 }
 .input-group input {
