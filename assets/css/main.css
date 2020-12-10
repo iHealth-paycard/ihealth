@@ -1692,7 +1692,7 @@ nav#menu span.fa.fa-bars:hover {
   line-height: 32px;
 }
 .single-testimonial-area {
-  background-image: url(https://ihealth-paycard.github.io/ihealth/ihealth/assets/images/about/testimonial-bg.jpg);
+  background-image: url(https://ihealth-paycard.github.io/ihealth/assets/images/about/testimonial-bg.jpg);
   background-size: cover;
   padding: 60px 0;
 }
@@ -2165,12 +2165,14 @@ nav#menu span.fa.fa-bars:hover {
   font-size: 48px;
 }
 .count-one .count-value {
-  color: #fff;
+  color: #4ea1d1;
+  /* color: #fff; */
   font-size: 48px;
   margin-bottom: 20px;
 }
 .count-one .count-title {
-  color: #fff;
+  color: #4ea1d1;
+  /* color: #fff; */
   font-size: 14px;
 }
 .width25-divider {
