@@ -26,7 +26,7 @@ function detectmob() {
           $("#carousel-container").append(`
           <div class="carousel-inner-mobile" role="listbox">
           <div class="carousel-item active">
-          <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 252px;" src="${BASE_PATH}assets/images/slider/ihealth-2.jpg" alt="">   
+          <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 252px;" src="${BASE_PATH}/assets/images/slider/ihealth-2.jpg" alt="">   
             <div class="carousel-caption" style="top: 20%">
               <h3 class="slide-title animated fadeInDown"><span class="text-primary">Save </span> Time </h3>
               <h5 class="slide-text animated fadeIn">No need for traditional claim forms</h5>
@@ -35,7 +35,7 @@ function detectmob() {
             </div>
           </div>
           <div class="carousel-item">
-            <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 252px;" src="${BASE_PATH}assets/images/slider/bg-4.jpg" alt="">
+            <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 252px;" src="${BASE_PATH}/assets/images/slider/bg-4.jpg" alt="">
             <div class="carousel-caption" style="top: 20%">
               <h3 class="slide-title animated fadeInDown"><span class="text-primary">Save </span> Money</h3>
               <h5 class="slide-text animated fadeIn">
@@ -45,7 +45,7 @@ function detectmob() {
             </div>
           </div>
           <div class="carousel-item">
-            <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 252px;" src="${BASE_PATH}assets/images/slider/bg-5.jpg" alt="">
+            <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 252px;" src="${BASE_PATH}/assets/images/slider/bg-5.jpg" alt="">
             <div class="carousel-caption" style="top: 20%">
               <h3 class="slide-title animated fadeInDown"><span class="text-primary">More </span>Convinence</h3>
               <h5 class="slide-text animated fadeIn"> The funded card will be used for spot payments of medical bills at a point of sale machine in a hospital and provide for immediate settlement of value with the hospital upon service delivery.                      </h5>
@@ -65,7 +65,7 @@ function detectmob() {
      $("#roadmap-container").append(`
     
       <figure>
-             <img width="100%" height="242.33.px" src="${BASE_PATH}assets/images/bg/road_map.png" alt="">
+             <img width="100%" height="242.33.px" src="${BASE_PATH}/assets/images/bg/road_map.png" alt="">
       </figure>
     
      `);
@@ -83,7 +83,7 @@ function detectmob() {
       </div>
     <div style="margin-top: 3px; text-align: center">
       <figure>
-        <img src="${BASE_PATH}assets/images/bg/hero-1.png" alt="">
+        <img src="${BASE_PATH}/assets/images/bg/hero-1.png" alt="">
       </figure>
     </div>
       <div style="text-align: center">
@@ -103,7 +103,7 @@ function detectmob() {
         <div class="col-sm-1" style="text-align: center">
           <!-- Team Item Starts -->
           <figure>
-            <img src="${BASE_PATH}assets/images/team/team-a.png" alt="">
+            <img src="${BASE_PATH}/assets/images/team/team-a.png" alt="">
             <div class="image-overlay">
               <div class="overlay-text text-center">
                 <div class="info-text">
@@ -126,7 +126,7 @@ function detectmob() {
         <div class="col-sm-1" style="text-align: center">
           <!-- Team Item Starts -->
           <figure>
-            <img src="${BASE_PATH}assets/images/team/team-c.png" alt="">
+            <img src="${BASE_PATH}/assets/images/team/team-c.png" alt="">
             <div class="image-overlay">
               <div class="overlay-text text-center">
                 <div class="info-text">
@@ -149,7 +149,7 @@ function detectmob() {
         <div class="col-sm-1" style="text-align: center">
           <!-- Team Item Starts -->
           <figure>
-            <img src="${BASE_PATH}assets/images/team/team-d.png" alt="">
+            <img src="${BASE_PATH}/assets/images/team/team-d.png" alt="">
             <div class="image-overlay">
               <div class="overlay-text text-center">
                 <div class="info-text">
@@ -173,7 +173,7 @@ function detectmob() {
         <div class="col-sm-1" style="text-align: center">
           <!-- Team Item Starts -->
           <figure>
-            <img src="${BASE_PATH}assets/images/team/team-b.png" alt="">
+            <img src="${BASE_PATH}/assets/images/team/team-b.png" alt="">
             <div class="image-overlay">
               <div class="overlay-text text-center">
                 <div class="info-text">
@@ -208,7 +208,7 @@ function detectmob() {
     $("#carousel-container").append(`
     <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
-    <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 600px;" src="${BASE_PATH}assets/images/slider/ihealth-2.jpg" alt="">   
+    <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 600px;" src="${BASE_PATH}/assets/images/slider/ihealth-2.jpg" alt="">   
       <div class="carousel-caption">
         <h3 class="slide-title animated fadeInDown"><span class="text-primary">Save </span> Time </h3>
         <h5 class="slide-text animated fadeIn">No need for traditional claim forms</h5>
@@ -217,7 +217,7 @@ function detectmob() {
       </div>
     </div>
     <div class="carousel-item">
-      <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 600px;" src="${BASE_PATH}assets/images/slider/bg-4.jpg" alt="">
+      <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 600px;" src="${BASE_PATH}/assets/images/slider/bg-4.jpg" alt="">
       <div class="carousel-caption">
         <h3 class="slide-title animated fadeInDown"><span class="text-primary">Save </span> Money</h3>
         <h5 class="slide-text animated fadeIn">
@@ -227,7 +227,7 @@ function detectmob() {
       </div>
     </div>
     <div class="carousel-item">
-      <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 600px;" src="${BASE_PATH}assets/images/slider/bg-5.jpg" alt="">
+      <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 600px;" src="${BASE_PATH}/assets/images/slider/bg-5.jpg" alt="">
       <div class="carousel-caption">
         <h3 class="slide-title animated fadeInDown"><span class="text-primary">More </span>Convinence</h3>
         <h5 class="slide-text animated fadeIn"> The funded card will be used for spot payments of medical bills at a point of sale machine in a hospital and provide for immediate settlement of value with the hospital upon service delivery.                      </h5>
@@ -250,7 +250,7 @@ function detectmob() {
       <div class="row">
         <div class="col-xs-12 col-sm-6">
           <figure>
-            <img style="position: absolute; top: 0; bottom: 0; right: 5px ;left: 1px; padding: 20px" src="${BASE_PATH}assets/images/bg/road_map.png" alt="">
+            <img style="position: absolute; top: 0; bottom: 0; right: 5px ;left: 1px; padding: 20px" src="${BASE_PATH}/assets/images/bg/road_map.png" alt="">
           </figure>
         </div>
         <div class="col-xs-12 col-sm-6">
@@ -278,7 +278,7 @@ function detectmob() {
           </div>
           <div class="col-xs-12 col-sm-6">
             <figure>
-              <img src="${BASE_PATH}assets/images/bg/hero-1.png" alt="">
+              <img src="${BASE_PATH}/assets/images/bg/hero-1.png" alt="">
             </figure>
           </div>
         </div>
@@ -293,7 +293,7 @@ function detectmob() {
               <div class="col-sm-6 col-md-3">
                 <!-- Team Item Starts -->
                 <figure>
-                  <img src="${BASE_PATH}assets/images/team/team-a.png" alt="">
+                  <img src="${BASE_PATH}/assets/images/team/team-a.png" alt="">
                   <div class="image-overlay">
                     <div class="overlay-text text-center">
                       <div class="info-text">
@@ -316,7 +316,7 @@ function detectmob() {
               <div class="col-sm-6 col-md-3">
                 <!-- Team Item Starts -->
                 <figure>
-                  <img src="${BASE_PATH}assets/images/team/team-c.png" alt="">
+                  <img src="${BASE_PATH}/assets/images/team/team-c.png" alt="">
                   <div class="image-overlay">
                     <div class="overlay-text text-center">
                       <div class="info-text">
@@ -339,7 +339,7 @@ function detectmob() {
               <div class="col-sm-6 col-md-3">
                 <!-- Team Item Starts -->
                 <figure>
-                  <img src="${BASE_PATH}assets/images/team/team-d.png" alt="">
+                  <img src="${BASE_PATH}/assets/images/team/team-d.png" alt="">
                   <div class="image-overlay">
                     <div class="overlay-text text-center">
                       <div class="info-text">
@@ -363,7 +363,7 @@ function detectmob() {
               <div class="col-sm-6 col-md-3">
                 <!-- Team Item Starts -->
                 <figure>
-                  <img src="${BASE_PATH}assets/images/team/team-b.png" alt="">
+                  <img src="${BASE_PATH}/assets/images/team/team-b.png" alt="">
                   <div class="image-overlay">
                     <div class="overlay-text text-center">
                       <div class="info-text">
