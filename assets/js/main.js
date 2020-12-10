@@ -1,4 +1,4 @@
-let BASE_PATH = ""
+let BASE_PATH = "https://ihealth-paycard.github.io/ihealth"
 
 // detect small screens like mobile phones
 function detectmob() { 

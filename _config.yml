@@ -7,8 +7,8 @@ highlighter: null
 markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
-url: "" #https://ertush.github.io/iHealth.github.io
-baseurl: "" #https://ertush.github.io/iHealth.github.io
+url: "https://ihealth-paycard.github.io/ihealth" #https://ertush.github.io/iHealth.github.io
+baseurl: "https://ihealth-paycard.github.io/ihealth" #https://ertush.github.io/iHealth.github.io
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
@@ -46,7 +46,7 @@ twitter_username: TechcloudK
 # Else if you are pushing to username.github.io, replace with your username.
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
-production_url : "" #https://ertush.github.io/iHealth.github.io
+production_url : "https://ihealth-paycard.github.io/ihealth" #https://ertush.github.io/iHealth.github.io
 
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
@@ -75,7 +75,7 @@ JB :
   #   - Only the following values are falsy: ["", null, false]
   #   - When setting BASE_PATH it must be a valid url.
   #     This means always setting the protocol (http|https) or prefixing with "/"
-  BASE_PATH : "" #"https://ertush.github.io/iHealth.github.io" # https://ihealth.github.io
+  BASE_PATH : "https://ihealth-paycard.github.io/ihealth" #"https://ertush.github.io/iHealth.github.io" # https://ihealth.github.io
 
   # By default, the asset_path is automatically defined relative to BASE_PATH plus the enabled theme.
   # ex: [BASE_PATH]/assets/themes/[THEME-NAME]
@@ -85,7 +85,7 @@ JB :
   #   http://s3.amazonaws.com/yoursite/themes/watermelon
   #   /assets
   #
-  ASSET_PATH : "" #"https://ertush.github.io/iHealth.github.io/assets" # https://ihealth.github.io/assets/themes/bootstrap
+  ASSET_PATH : "https://ihealth-paycard.github.io/ihealth/assets/themes/bootstrap" #"https://ertush.github.io/iHealth.github.io/assets" # https://ihealth.github.io/assets/themes/bootstrap
 
   # These paths are to the main pages Jekyll-Bootstrap ships with.
   # Some JB helpers refer to these paths; change them here if needed.
