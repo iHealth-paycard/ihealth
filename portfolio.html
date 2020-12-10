@@ -1,0 +1,33 @@
+---
+layout: index
+title: Portfolio
+group: navigation
+tagline: A sample page for landing pages and apps, try yourself!
+tags : [portfolio, pdf]
+img : 
+img-mobile : 
+author : Eric
+css: 
+js:
+keywords: components, demo
+canonical: https://ihealth.github.io
+---
+{% include JB/setup %}
+
+<div class="tbtn wow pulse" id="menu" data-wow-iteration="infinite" data-wow-duration="500ms" data-toggle="offcanvas" data-target=".navmenu">
+      <p><i class="fa fa-file-text-o"></i>Portfolio</p>
+    </div>
+  </div>
+
+  <!-- Content Start -->
+  <div id="grid-continer" style="
+    margin: 45px 0;">
+    <div class="container">
+      <div class="row">
+        <iframe src="{{ BASE_PATH }}uploads/portfolio.pdf"  style="overflow: scroll;" width="100%" height="900px">
+        </iframe>
+      </div>
+    </div>
+  </div>
+</div>
+  <!-- Content End -->
