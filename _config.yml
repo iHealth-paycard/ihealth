@@ -8,7 +8,7 @@ markdown: kramdown
 extensions: [fenced_code_blocks]
 excerpt_separator: "<!--more-->"
 url: "https://ihealth-paycard.github.io/ihealth/" #https://ertush.github.io/iHealth.github.io
-baseurl: "https://ihealth-paycard.github.io/ihealth/" #https://ertush.github.io/iHealth.github.io
+baseurl: "/ihealth-paycard.github.io/ihealth" #https://ertush.github.io/iHealth.github.io
 # Themes are encouraged to use these universal variables
 # so be sure to set them if your theme uses them.
 #
