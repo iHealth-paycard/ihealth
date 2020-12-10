@@ -263,14 +263,7 @@ function detectmob() {
     </div>
   </div>	
   <!-- Spacer Section -->
-  
-  <div class="mb-60"></div>
-      <div class="row">
-          <div class="col-md-4 col-sm-6">
-              <div class="featured-box featured-center">
-              </div>
-          </div>
-      </div>
+  <div style="margin: 60px"></div>
       <!--End of spacer section -->    
     `);
 
