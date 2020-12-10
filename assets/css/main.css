@@ -301,7 +301,7 @@ strong {
   margin-bottom: 45px;
 }
 .header-style-3 {
-  background: url(/assets/images/bg/hero-3-bg.jpg) no-repeat left center;
+  background: url(https://ihealth-paycard.github.io/ihealth/assets/images/bg/hero-3-bg.jpg) no-repeat left center;
   background-size: cover;
   padding-top: 80px;
 }
@@ -1692,7 +1692,7 @@ nav#menu span.fa.fa-bars:hover {
   line-height: 32px;
 }
 .single-testimonial-area {
-  background-image: url(/assets/images/about/testimonial-bg.jpg);
+  background-image: url(https://ihealth-paycard.github.io/ihealth/assets/images/about/testimonial-bg.jpg);
   background-size: cover;
   padding: 60px 0;
 }
