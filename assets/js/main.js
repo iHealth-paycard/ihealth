@@ -206,15 +206,7 @@ function detectmob() {
 
         //Slider background images
     $("#carousel-container").append(`
-      <!-- Spacer Section -->
-      <div class="row">
-          <div class="col-md-4 col-sm-6">
-              <div class="featured-box featured-center">
-              </div>
-          </div>
-      </div>
-      <!--End of spacer section -->    
-
+  
     <div class="carousel-inner" role="listbox">
     <div class="carousel-item active">
     <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 600px;" src="${BASE_PATH}/assets/images/slider/ihealth-2.jpg" alt="">   
@@ -259,7 +251,7 @@ function detectmob() {
       <div class="row">
         <div class="col-xs-12 col-sm-6">
           <figure>
-            <img style="position: absolute; top: 0; bottom: 0; right: 5px ;left: 1px; padding: 20px" src="${BASE_PATH}/assets/images/bg/road_map.png" alt="">
+            <img style="position: absolute; top: 0; bottom: 5px; right: 5px ;left: 1px; padding: 20px" src="${BASE_PATH}/assets/images/bg/road_map.png" alt="">
           </figure>
         </div>
         <div class="col-xs-12 col-sm-6">
