@@ -2165,14 +2165,14 @@ nav#menu span.fa.fa-bars:hover {
   font-size: 48px;
 }
 .count-one .count-value {
-  color: #4ea1d1;
-  /* color: #fff; */
+  /* color: #4ea1d1; */
+  color: #fff;
   font-size: 48px;
   margin-bottom: 20px;
 }
 .count-one .count-title {
-  color: #4ea1d1;
-  /* color: #fff; */
+  /* color: #4ea1d1; */
+  color: #fff;
   font-size: 14px;
 }
 .width25-divider {
