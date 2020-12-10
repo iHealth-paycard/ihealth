@@ -26,7 +26,7 @@ function detectmob() {
           $("#carousel-container").append(`
           <div class="carousel-inner-mobile" role="listbox">
           <div class="carousel-item active">
-          <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 300px;" src="${BASE_PATH}/assets/images/slider/ihealth-2.jpg" alt="">   
+          <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 252px;" src="${BASE_PATH}/assets/images/slider/ihealth-2.jpg" alt="">   
             <div class="carousel-caption" style="top: 20%">
               <h3 class="slide-title animated fadeInDown"><span class="text-primary">Save </span> Time </h3>
               <h5 class="slide-text animated fadeIn">No need for traditional claim forms</h5>
@@ -35,7 +35,7 @@ function detectmob() {
             </div>
           </div>
           <div class="carousel-item">
-            <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 300px;" src="${BASE_PATH}/assets/images/slider/bg-4.jpg" alt="">
+            <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 252px;" src="${BASE_PATH}/assets/images/slider/bg-4.jpg" alt="">
             <div class="carousel-caption" style="top: 20%">
               <h3 class="slide-title animated fadeInDown"><span class="text-primary">Save </span> Money</h3>
               <h5 class="slide-text animated fadeIn">
@@ -45,7 +45,7 @@ function detectmob() {
             </div>
           </div>
           <div class="carousel-item">
-            <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 300px;" src="${BASE_PATH}/assets/images/slider/bg-5.jpg" alt="">
+            <img style="background: rgba(253, 254, 255, 0.5); opacity: 0.3; width: 100%; height: 252px;" src="${BASE_PATH}/assets/images/slider/bg-5.jpg" alt="">
             <div class="carousel-caption" style="top: 20%">
               <h3 class="slide-title animated fadeInDown"><span class="text-primary">More </span>Convinence</h3>
               <h5 class="slide-text animated fadeIn"> The funded card will be used for spot payments of medical bills at a point of sale machine in a hospital and provide for immediate settlement of value with the hospital upon service delivery.                      </h5>
@@ -420,7 +420,7 @@ function detectmob() {
         items : 1,
         navigation : true,
         pagination: false,
-        slideSpeed : 300,
+        slideSpeed : 252,
         paginationSpeed : 400,
         singleItem:true
     });  
@@ -461,7 +461,7 @@ function detectmob() {
   
       $('#image-slider').owlCarousel({     
           navigation : true, // Show next and prev buttons
-          slideSpeed : 300,
+          slideSpeed : 252,
           paginationSpeed : 400,
           singleItem:true     
       });   
