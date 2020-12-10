@@ -250,7 +250,7 @@ function detectmob() {
       <div class="row">
         <div class="col-xs-12 col-sm-6">
           <figure>
-            <img style="position: absolute; top: 0; bottom: 0; right: 5px ;left: 1px; padding: 20px" src="${BASE_PATH}/assets/images/bg/road_map.png" alt="">
+            <img style="position: absolute; top: 0; bottom: 0; right: 5px ;left: 1px; padding: 0px" src="${BASE_PATH}/assets/images/bg/road_map.png" alt="">
           </figure>
         </div>
         <div class="col-xs-12 col-sm-6">
