@@ -1694,7 +1694,7 @@ nav#menu span.fa.fa-bars:hover {
 .single-testimonial-area {
   background-image: url(https://ihealth-paycard.github.io/ihealth/assets/images/about/testimonial-bg.jpg);
   background-size: cover;
-  padding: 60px 0;
+  padding: 60px 0; 
 }
 .single-testimonial-area .testimonial-inner blockquote {
   font-size: 14px;
@@ -2147,7 +2147,7 @@ nav#menu span.fa.fa-bars:hover {
   position: relative;
 }
 #counter {
-  background-image: url(/assets/images/about/testimonial-bg.jpg);
+  background-image: url(https://ihealth-paycard.github.io/ihealth/assets/images/about/testimonial-bg.jpg);
   background-size: cover;
   padding: 60px 0;
 }
