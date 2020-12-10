@@ -63,7 +63,9 @@ function detectmob() {
 
      // Road map Section
      $("#roadmap-container").append(`
-    
+     <!-- vertical Spacer -->
+     <div style="margin: 20px"></div>
+     <!-- End of vertical Spacer -->
       <figure>
              <img width="100%" height="242.33.px" src="${BASE_PATH}/assets/images/bg/road_map.png" alt="">
       </figure>
