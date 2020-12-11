@@ -263,10 +263,7 @@ function detectmob() {
         </div>
       </div>  
     </div>
-  </div>	
-  <!-- Spacer Section -->
-  <div style="margin: 60px"></div>
-      <!--End of spacer section -->    
+  </div>	   
     `);
 
 
